@@ -1,0 +1,25 @@
+.projectsBlock {
+    height: 100vh;
+    background-color: rgb(221, 199, 219);
+}
+.projectsContainer {
+    flex-direction: column;
+    justify-content: space-around;
+}
+.titleProjects {
+    background-color: rgb(194, 134, 179);
+}
+.projects {
+    border: 1px solid red;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    .projects {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}

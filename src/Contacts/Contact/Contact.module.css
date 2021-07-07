@@ -1,0 +1,6 @@
+.containerForm {
+    background-color: rgb(233, 186, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
